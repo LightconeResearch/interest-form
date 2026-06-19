@@ -171,7 +171,7 @@ body {
   margin-bottom: var(--lc-space-4);
 }
 
-.field label {
+.field label:not(.checkbox-item) {
   display: block;
   font-family: var(--lc-font-ui);
   font-size: var(--lc-fs-small);
@@ -217,30 +217,30 @@ body {
 .checkbox-list {
   display: flex;
   flex-direction: column;
-  gap: var(--lc-space-3);
+  gap: 0.375rem;
 }
 
 .checkbox-item {
   display: flex;
-  align-items: flex-start;
-  gap: 0.625rem;
+  align-items: center;
+  gap: 0.5rem;
   cursor: pointer;
+  padding: 0.25rem 0;
 }
 
 .checkbox-item input[type="checkbox"] {
-  margin-top: 0.2em;
   accent-color: var(--lc-accent);
-  width: 1rem;
-  height: 1rem;
+  width: 0.875rem;
+  height: 0.875rem;
   flex-shrink: 0;
   cursor: pointer;
 }
 
 .checkbox-item span {
-  font-family: var(--lc-font-body);
-  font-size: var(--lc-fs-body);
+  font-family: var(--lc-font-ui);
+  font-size: 1rem;
   color: var(--lc-text);
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .other-input {
