@@ -36,6 +36,10 @@ export default function InterestForm() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError('');
+    if (!consentMailing && !consentExpert) {
+      setError(t.consentError);
+      return;
+    }
     setSubmitting(true);
     try {
       await submitInterest({
