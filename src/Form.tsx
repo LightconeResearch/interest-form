@@ -3,6 +3,8 @@ import { ui, INTEREST_TOPICS } from './i18n';
 import type { Lang } from './i18n';
 import { submitInterest } from './api/submitInterest';
 
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 export default function InterestForm() {
   const [lang, setLang] = useState<Lang>('fr');
   const t = ui[lang];
@@ -36,6 +38,10 @@ export default function InterestForm() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError('');
+    if (!EMAIL_RE.test(email.trim())) {
+      setError(t.emailError);
+      return;
+    }
     if (!consentMailing && !consentExpert) {
       setError(t.consentError);
       return;
