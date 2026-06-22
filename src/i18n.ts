@@ -67,8 +67,8 @@ export const ui: Record<Lang, UiStrings> = {
     submitting: 'Envoi en cours…',
     successTitle: 'Merci !',
     successText: 'Votre réponse a bien été enregistrée. Nous vous contacterons prochainement.',
-    errorMsg: 'Une erreur est survenue lors de l\'envoi. Veuillez réessayer ou écrire à contact@lightconeresearch.org si le problème persiste.',
-    gdpr: 'Les données collectées (nom, email, organisation, domaines d\'intérêt) sont utilisées par Lightcone Research pour constituer un réseau de contacts et organiser des rencontres. Elles ne sont pas partagées avec des tiers. Conformément au RGPD, vous pouvez demander leur suppression à tout moment en écrivant à <a href="mailto:contact@lightconeresearch.org">contact@lightconeresearch.org</a>.',
+    errorMsg: 'Une erreur est survenue lors de l\'envoi. Veuillez réessayer ou écrire à info@lightconeresearch.org si le problème persiste.',
+    gdpr: 'Les données collectées (nom, email, organisation, domaines d\'intérêt) sont utilisées par Lightcone Research pour constituer un réseau de contacts et organiser des rencontres. Elles ne sont pas partagées avec des tiers. Conformément au RGPD, vous pouvez demander leur suppression à tout moment en écrivant à <a href="mailto:info@lightconeresearch.org">info@lightconeresearch.org</a>.',
   },
   en: {
     title: 'Interest form',
@@ -93,7 +93,7 @@ export const ui: Record<Lang, UiStrings> = {
     submitting: 'Submitting…',
     successTitle: 'Thank you!',
     successText: 'Your response has been recorded. We will be in touch soon.',
-    errorMsg: 'An error occurred while submitting. Please try again or write to contact@lightconeresearch.org if the problem persists.',
-    gdpr: 'The data collected (name, email, organisation, areas of interest) is used by Lightcone Research to build a contact network and organise events. It is not shared with third parties. Under GDPR, you may request deletion at any time by writing to <a href="mailto:contact@lightconeresearch.org">contact@lightconeresearch.org</a>.',
+    errorMsg: 'An error occurred while submitting. Please try again or write to info@lightconeresearch.org if the problem persists.',
+    gdpr: 'The data collected (name, email, organisation, areas of interest) is used by Lightcone Research to build a contact network and organise events. It is not shared with third parties. Under GDPR, you may request deletion at any time by writing to <a href="mailto:info@lightconeresearch.org">info@lightconeresearch.org</a>.',
   },
 };

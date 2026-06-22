@@ -183,7 +183,7 @@ Single page, Lightcone brand (parchment background, Quattrocento headings, Newsr
 │  sont pas partagées avec des tiers.     │
 │  Conformément au RGPD, vous pouvez      │
 │  demander leur suppression à tout       │
-│  moment : contact@lightconeresearch.org │
+│  moment : info@lightconeresearch.org │
 └─────────────────────────────────────────┘
 ```
 
@@ -201,9 +201,9 @@ Single page, Lightcone brand (parchment background, Quattrocento headings, Newsr
 
 Displayed below the submit button in both languages.
 
-**FR:** *Les données collectées (nom, email, organisation, domaines d'intérêt) sont utilisées par Lightcone Research pour constituer un réseau de contacts et organiser des rencontres. Elles ne sont pas partagées avec des tiers. Conformément au RGPD, vous pouvez demander leur suppression à tout moment en écrivant à contact@lightconeresearch.org.*
+**FR:** *Les données collectées (nom, email, organisation, domaines d'intérêt) sont utilisées par Lightcone Research pour constituer un réseau de contacts et organiser des rencontres. Elles ne sont pas partagées avec des tiers. Conformément au RGPD, vous pouvez demander leur suppression à tout moment en écrivant à info@lightconeresearch.org.*
 
-**EN:** *The data collected (name, email, organisation, areas of interest) is used by Lightcone Research to build a contact network and organise events. It is not shared with third parties. Under GDPR, you may request deletion at any time by writing to contact@lightconeresearch.org.*
+**EN:** *The data collected (name, email, organisation, areas of interest) is used by Lightcone Research to build a contact network and organise events. It is not shared with third parties. Under GDPR, you may request deletion at any time by writing to info@lightconeresearch.org.*
 
 ---
 
