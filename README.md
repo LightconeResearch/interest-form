@@ -42,6 +42,8 @@ CREATE POLICY "insert_anon"
 
 CREATE POLICY "select_admins"
   ON interest_submissions FOR SELECT TO authenticated USING (true);
+
+GRANT INSERT ON public.interest_submissions TO anon;
 ```
 
 3. Retrieve your credentials from **Project Settings → API**:
