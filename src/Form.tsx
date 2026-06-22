@@ -72,7 +72,7 @@ export default function InterestForm() {
     <div className="form-card">
       {/* Header */}
       <div className="form-header">
-        <img src="/logo-primary.svg" alt="Lightcone Research" className="form-logo" />
+        <img src={`${import.meta.env.BASE_URL}logo-primary.svg`} alt="Lightcone Research" className="form-logo" />
         <div className="lang-toggle" role="group" aria-label="Language">
           <button
             type="button"
